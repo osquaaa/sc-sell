@@ -1,0 +1,324 @@
+body, html{
+    background-color:  #12131a;
+    font-family: "Kanit", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.container {
+	max-width: 1440px;
+	margin: 0px auto;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+/* background-color: rgb(28, 28, 41); */
+    height: 120px;
+
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header-subtitle{
+    padding-left: 20px;
+    color: #ffffff9a;
+    padding-top: 5px
+}
+.bold{
+    font-weight: 500;
+}
+.header-logo img{
+    height: 55px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.header-logo{
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.main-content{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.main-title{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-shadow: 4px 0px 19px rgba(216,  216,  255, 0.1);
+}
+.main-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #33333341;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    color: #fff;
+    flex-direction: column;
+    margin-top: 20px;
+    -webkit-box-shadow: -1px -1px 34px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: -1px -1px 34px 0px rgba(0,0,0,0.1);
+    box-shadow: -1px -1px 34px 0px rgba(0,0,0,0.1);
+}
+.price-title{
+
+}
+.real-price{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(87, 87, 255);
+}
+.select{
+    color: rgb(87, 87, 255);
+}
+.main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+}
+.btn-buy{
+    background-color: rgb(87, 87, 255);
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.btn-buy:hover{
+    background-color: rgb(129, 129, 255);
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-robux{
+    margin-top: 30px;
+
+}
+.rb-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    animation: logorb 5s infinite;
+    transition: all 1s;
+}
+/* .main-robux:hover{
+    transform: rotate(360deg);
+} */
+@keyframes logorb{
+        from { transform: rotate(0deg); /* Непрозрачный текст */ }
+        to { transform: rotate(360deg); /* Прозрачный текст */ }
+}
+.main-price--subtitle{
+    color: #ffffff57;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/*.main-card{
+    
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #33333341;
+    height: px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.card-text-title{
+    padding-top: 2px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.card-number{
+    color: rgb(87, 87, 255);
+    font-weight: 700;
+    font-size: 90px;
+}
+.card-content{
+    padding-right: 7px;
+    padding-right: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.card-text-sub{
+    font-size: 17px;
+    color: #7c7c7c;
+}
+.main-cards{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+/* } */
+
+
+.card-title{
+    font-size: 50px;
+    color: #fff;
+    margin-top: 70px;
+    font-weight: 700;
+}
+.card-number{
+    color: rgb(87, 87, 255);
+    font-weight: 700;
+    font-size: 90px;
+    margin-bottom: -10px;
+}
+.card-title-bold{
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+}
+.card{
+
+}
+.column{
+    margin-top: 40px;
+}
+.card-title-sub{
+    font-size: 20px;
+    color: #555555;
+}
+.card{
+    border: 2px solid #333;
+}
+.faq-title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.faq-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.acor-container {
+    margin: 20px 0;
+}
+.acor-container .acor-body {
+
+    border-radius: 0px 0px 10px 10px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    height: 0;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(216, 216, 255, 0.182);
+    line-height: 18px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    transition: color 0.5s, padding 0.5s;
+    overflow: hidden;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.acor-container .acor-body p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+.acor-container label {
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(216,  216,  255, 0.1);
+    display: block;
+    padding: 15px 200px;
+    width: 100%;
+    color: rgb(87, 87, 255);
+    font-weight: 300;
+    box-sizing: border-box;
+    z-index: 100;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 5px;
+    transition: color .35s;
+    text-align: center;
+}
+.acor-container label:hover {
+    color: #FFF;
+}
+.acor-container input{
+    
+    display: none;
+}
+.acor-container label:before {
+
+    /* content: '\276F';
+    padding-left: 10px;
+    float: right; */
+}
+.acor-container input:checked + label {
+    text-align: center;
+    background-color: rgba(216,  216,  255, 0.1);
+    color: #FFF;
+    box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
+}
+.acor-container input:checked + label:before {
+
+    transition: transform .35s;
+    transform: rotate(90deg);
+}
+.acor-container input:checked + label + .acor-body {
+    height: auto;
+    margin-top: -5px;
+    color: #000;
+    padding: 20px 30px 10px;
+}
+@media(max-width:744px){
+    .acor-container label{
+        padding: 15px 100px;
+    }
+}
+@media(max-width:534px){
+    .acor-container label{
+        padding: 15px 60px;
+    }
+}
