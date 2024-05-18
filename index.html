@@ -31,7 +31,10 @@
   margin-bottom: 20px;
 }
 
-
+.column-stats{
+    width: 33%;
+    
+}
 /* Удалите лишние левые и правые поля, из-за заполнения */
 .row {margin: 0 -5px;}
 
@@ -49,6 +52,9 @@
     display: block;
     margin-bottom: 20px;
   }
+  .column-stats{
+    margin-bottom: 0px;
+}
 }
 
 /* Стиль контейнера карточек */
@@ -56,11 +62,13 @@
     -webkit-box-shadow: -1px -1px 34px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: -1px -1px 34px 0px rgba(0,0,0,0.1);
     box-shadow: -1px -1px 34px 0px rgba(0,0,0,0.1);
-  padding: 16px;
+  padding: 15px;
   text-align: center;
   background-color: #33333341;
   border-radius: 20px;
-
+}
+.card-stats{
+    
 }
 </style>
 </head>
@@ -80,15 +88,16 @@
             <div class="container container-main">
                 <div class="main-content">
                     <div class="main-text">
-                    <div class="main-title"><span class="select">ROBUX</span> с самыми низкими ценами.</div>
+                    <div class="main-title"><span class="select">ROBUX</span> с самыми низкими ценами</div>
                     <div class="main-price">
                         <div class="price-title">Наши расценки:</div>
-                        <div class="real-price">1RUB = 2.3R$</div>
+                        <div class="real-price">1₽ = 2.3R$</div>
                     </div>
                     <div class="main-price--subtitle">Покупайте ROBUX и наслаждайтесь любимой игрой!</div>
                     <a href="" class="btn-buy">Купить сейчас</a>
                 </div>
-                
+                <img src="./img/rbSTef.webp" alt="" class="gosa123228">
+                <img src="./img/rbMy.webp" alt="" class="trofim123228">
 
                 <div class="card-title">Преимущества</div>
                 <!-- <div class="main-cards">
@@ -120,7 +129,7 @@
                       <div class="card">
                         <h3 class="card-number">1</h3>
                         <p class="card-title-bold">Лучший курс</p>
-                        <p class="card-title-sub">У нас самая низкая цена ROBUX на рынке</p>
+                        <p class="card-title-sub">У нас самая низкая цена ROBUX на рынке. <br> 1₽ = 2.3R$</p>
                       </div>
                     </div>
                   
@@ -153,13 +162,68 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="stats">
+            <div class="container stats-container">
+                <div class="stats-content">
+                    <div class="stats-title">Статистика</div>
+                    <div class="stats-subtitle">Честные цифры нашего магазина</div>
+                    <div class="row">
+                        <div class="column column-stats">
+                          <div class="stats-card">
+
+                            <!-- <h3 class="card-number stats-number"><img src="./img copy/clarity_users-linepeoples (1).svg" alt=""></h3> -->
+
+                            <div class="logo-title">
+                            <p class="card-title-bold stats-card-title">100+</p>
+
+                            <p class="card-title-sub stats-card-sub">Онлайна круглосуточно.</p>
+                        </div>
+                          </div>
+                        </div>
+                      
+                        <div class="column column-stats">
+                          <div class="stats-card">
+
+                            <!-- <h3 class="card-number stats-number"><img src="./img copy/bx_bx-stats (1).svg" alt=""></h3> -->
+                            <div class="logo-title">
+                            <p class="card-title-bold stats-card-title">60M+ R$</p>
+                            <p class="card-title-sub stats-card-sub">Продано за время работы.</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="column column-stats">
+                          <div class="stats-card">
+                                <!-- <h3 class="card-number stats-number"><img src="./img copy/carbon_tool-box (2).svg" alt=""></h3> -->
+                                <div class="logo-title">
+                            <p class="card-title-bold stats-card-title">7000+</p>
+                            <p class="card-title-sub stats-card-sub">Транзакций ежедневно.</p>
+                        </div>
+                          </div>
+                        </div>
+                        
+
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <div class="faq">
             <div class="container faq-container">
                 <div class="faq-content">
                     <div class="faq-title">FAQ</div>
                     <div class="acor-container"> 
-    
-                        <input type="radio" name="acor" id="acor1" checked="checked" />
+                        <input type="radio" name="acor" id="acor5"  checked="checked"/>
+                        <label for="acor5">Как купить ROBUX?</label>
+                        <div class="acor-body">
+                            <div>Нажмите <a href="">Сюда</a> или на кнопку <span class="bold">"Купить сейчас"</span> в начале или в конце страницы</div>
+                        </div> 
+
+                        <input type="radio" name="acor" id="acor1" />
                         <label for="acor1"> Как долго идут ROBUX?</label>
                         <div class="acor-body">
                             <p>В течении 5 дней они придут к вам на аккаунт.</p>
@@ -172,12 +236,28 @@
                         </div>
                         
                         <input type="radio" name="acor" id="acor3" />
-                        <label for="acor3">Заголовок вкладки</label>
+                        <label for="acor3">Вы меня не обманите?</label>
                         <div class="acor-body">
-                            <p>Описание вкладки</p>
+                            <p>Мы - честный сайт! Никого не обманываем и всегда выдаем купленные ROBUX. при возникновении вопросов вы всегда можете обратиться в поддержку.</p>
                         </div> 
+
+                        <input type="radio" name="acor" id="acor4" />
+                        <label for="acor4">Мне не отвечают в поддержке!</label>
+                        <div class="acor-body">
+                            <p>Обычное время ожидания ответа - 24часа, при особых случаях он может осуществляться до 72 часов.</p>
+                        </div> 
+
                         
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container footer-container">
+                <div class="footer-content">
+                    <div class="logo-footer"><img class="footer-logo-img" src="./img/leaf.svg" alt="">RBXLow</div>
+                    <div class="btn-buy__footer"><a href="" class="link-buy__footer">Купить сейчас</a></div>
                 </div>
             </div>
         </div>
