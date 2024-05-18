@@ -187,7 +187,7 @@ body, html{
         to { transform: rotate(360deg); /* Прозрачный текст */ }
 }
 .main-price--subtitle{
-    color: #ffffff57;
+    color: #898989;
     font-weight: 500;
     font-size: 20px;
     padding-top: 10px;
